@@ -2,7 +2,7 @@ A <- readline(prompt = "Write your string -> ")
 A <- tolower(A)
 A <- gsub("[[:punct:]]", "", A)
 A <- gsub("\\s", "", A)
-j <-  nchar(A)
+j <- nchar(A)
 
 #Loop over half of string's length
 for (i in 1:floor(nchar(A)/2)){
