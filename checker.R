@@ -14,7 +14,7 @@ for (i in 1:floor(nchar(A)/2)){
 
 #Check result of j
 if(j == floor(nchar(A)/2) + 1 | j == i){ 
-  print("Palindrome")
+  print("String is palindrome")
 } else {
-  print("Not palindrome")
+  print("String is not palindrome")
 }
