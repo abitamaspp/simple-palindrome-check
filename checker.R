@@ -13,7 +13,7 @@ for (i in 1:floor(nchar(b)/2)){
 }
 
 #Check result of j
-if(j == floor(nchar(b)/2) + 1 | j == i){ 
+if(j == floor(nchar(b)/2) + 1 | j == i){
   print("String is palindrome")
 } else {
   print("String is not palindrome")
