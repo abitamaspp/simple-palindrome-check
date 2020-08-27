@@ -25,7 +25,7 @@ Here was the idea: check whether 1st and nth char are same. If true, then contin
 a <- the string to check
 b <- nchar(a)
 
-for (i in 1:b)){
+for (i in 1:b){
   if(substr(a,i,i) != substr(a,b,b)){
     break()
   }
