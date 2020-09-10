@@ -1,9 +1,8 @@
 # simple-palindrome-check
-A simple R program to check whether a given string is palindrome or not
 
-This is one problem of the technical test I get when applying a job. We were asked to write a program (in any language) to check whether a given string is palindorme or not.
+This is one problem from the technical test I get when applying a job. We were asked to write a program (in any language) to check whether a given string is palindorme or not.
 
-Let's start from its definition. A palindrome is a word, number, phrase, or other sequence of characters which reads the same backward as forward, such as madam, racecar (https://en.wikipedia.org/wiki/Palindrome). The key point is **reads the same backward as forward**. That being said, such string can't have (says) both a and â. Well technically they are "A"s, but their pronunciation are different. Besides, both are different letters.
+Let's start from its definition. A palindrome is a word, number, phrase, or other sequence of characters which reads the same backward as forward, such as madam and racecar (https://en.wikipedia.org/wiki/Palindrome). The key point is **reads the same backward as forward**. That being said, such string can't have (says) both a and â. Well technically they are "A"s, but their pronunciation are different. Besides, both are different letters.
 
 With that in mind, I figured these:
 
